@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Course 'Solidity & Ethereum in React (NextJs):The complete Guide' below is the progres:
+1. Introduction: 100%
+2. How to approach errors: 100%
+3. Init App: 100%
+4. Remove React JS content: 100%
