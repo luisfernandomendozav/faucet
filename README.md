@@ -74,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 2. How to approach errors: 100%
 3. Init App: 100%
 4. Remove React JS content: 100%
+5. Terminology: 100%
+6. [AI] What is Blockchain: 100%
+7. [AI] Smart Contracts: 0%
+8. 
