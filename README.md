@@ -76,5 +76,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 4. Remove React JS content: 100%
 5. Terminology: 100%
 6. [AI] What is Blockchain: 100%
-7. [AI] Smart Contracts: 0%
-8. 
+7. [AI] Smart Contracts: 100%
+8. [AI] Miners, Networks, Wallet: 100%
+9. [AI] Ethereum Remix: 100%
+10. Important Note - Truffle: 100%
+11. Truffle init: 70% - 6:47
+12. 
