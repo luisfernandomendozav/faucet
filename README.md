@@ -80,5 +80,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 8. [AI] Miners, Networks, Wallet: 100%
 9. [AI] Ethereum Remix: 100%
 10. Important Note - Truffle: 100%
-11. Truffle init: 70% - 6:47
-12. 
+11. Truffle init: 100%
+12. Installing Ganache: 100%
+    - To migrate the contract first we have to open Ganache to run the local Blockchain
+    - Then we have to select the truffle-config.js file when selecting new workspace
+    - Then we have to verify that the same port is in the RPC server on ganache, and in the truffle-config.js, in this case is Port: 7545
+    - Then we run `truffle migrate`
+    - If we open ganache and select transactions we should see a `CONTRACT CREATION` marked in red, if we click that the bytecode of our contract is the TX DATA
