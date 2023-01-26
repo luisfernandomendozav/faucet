@@ -86,4 +86,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Then we have to select the truffle-config.js file when selecting new workspace
     - Then we have to verify that the same port is in the RPC server on ganache, and in the truffle-config.js, in this case is Port: 7545
     - Then we run `truffle migrate`
-    - If we open ganache and select transactions we should see a `CONTRACT CREATION` marked in red, if we click that the bytecode of our contract is the TX DATA
+    - If we open ganache and select transactions we should see a `CONTRACT CREATION` marked in red, if we click that the bytecode of our contract is the TX DATA.
+13. First smart contract: 100%
+14. [AI] Ints: 100%
+    - uint: max value: (2^256) - 1, min value: 0
+    - int: max value: (2^255) - 1, min value: -2^255
+15. [AI] Int Correction: 100%
