@@ -7,3 +7,4 @@ contract Faucet {
     int public counter = -10;
 
 }
+

@@ -92,3 +92,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - uint: max value: (2^256) - 1, min value: 0
     - int: max value: (2^255) - 1, min value: -2^255
 15. [AI] Int Correction: 100%
+16. Migrating Facuet: 100%
+    - ABI in build/contracts/Migrations.json - ABI = Application binary Interface.
+    - For compiling the smart contracts we run `truffle compile` this will create a new Json file with the name of the contract in build/contracts.
+    - Not all the byte code is deployed int he blockchain, we have another property in json file called deployedBytecode that is actually what is deployed on the blockchain.
+    - To migrate we have to create another file in the migrations file, in this case since we are trying to depoyed the Faucet contract we will create a specific migration file for this called: `2_faucet_migration.js`.
+    - Then we can run `truffle migrate`.
