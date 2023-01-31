@@ -98,3 +98,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Not all the byte code is deployed int he blockchain, we have another property in json file called deployedBytecode that is actually what is deployed on the blockchain.
     - To migrate we have to create another file in the migrations file, in this case since we are trying to depoyed the Faucet contract we will create a specific migration file for this called: `2_faucet_migration.js`.
     - Then we can run `truffle migrate`.
+17. [AI] Gas fees: 100%
+    - For every transaction you have to pay gas.
+    - The miners will get the transaction with the largest value.
+18. [AI] Gas Fees Bonus: 100%
+    - The smallest denominator of ETH is wei 
+    - 1Gwei = 1 x10^9 wei
+    - 1eth = 1x10^18 wei
+    - A typical transaction fee can be 0.00032 eth = 320000 gwei
+    - Link to the denominations: https://github.com/ethereumbook/ethereumbook/blob/develop/02intro.asciidoc
+    - We can check real transactions here: https://etherscan.io/
+    - Typical transaction: https://etherscan.io/tx/0x5c21f786973774608d8c2c68e1b921cdc518e9393d41f90541c32652e64f3c48
+    - We can see the gas behaviour here: https://etherscan.io/gastracker
+19. [AI] KECCAK256: 100%
+    - When we deploy the contract usin `truffle migrate` we also call the contract functions.
+    - We can not deploy the same contract on the same blockchain, truffle keep track of this.
+    - In the contract call, we have the TX DATA and that has the bytecode of the called functions.
+    - Keccak256 is the hashing function, the output will be 256 bits long.
+    - It's a one way function.
+    - We can se hashing in real time here: https://emn178.github.io/online-tools/keccak_256.html.
+20. [AI] Function Siganture: 100%
+    - Rewatch video is important.
+21. [AI] Bits, Hex, Decimal: 0%
+
